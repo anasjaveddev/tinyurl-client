@@ -18,7 +18,7 @@ const Hero = () => {
 
     try {
       const response = await fetch(
-        'http://backend-production-fc6fe.up.railway.app',
+        'https://backend-production-fc6fe.up.railway.app',
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
