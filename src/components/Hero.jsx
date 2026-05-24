@@ -18,7 +18,7 @@ const Hero = () => {
 
     try {
       const response = await fetch(
-        'https://backend-production-fc6fe.up.railway.app/save',
+        'https://tinyurl-server-production-dd67.up.railway.app/save',
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
