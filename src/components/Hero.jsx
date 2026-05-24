@@ -18,12 +18,12 @@ const Hero = () => {
 
     try {
       const response = await fetch(
-        'https://backend-production-fc6fe.up.railway.app',
+        'https://backend-production-fc6fe.up.railway.app/save',
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ longURL }),
-        },
+        }
       );
 
       const data = await response.json();
